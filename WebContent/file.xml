@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_192" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="model.Actor">
+    <void property="firstname">
+     <string>Regyna</string>
+    </void>
+    <void property="gender">
+     <string>female</string>
+    </void>
+    <void property="id">
+     <long>1</long>
+    </void>
+    <void property="lastname">
+     <string>Spok</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="model.Actor">
+    <void property="firstname">
+     <string>Donna</string>
+    </void>
+    <void property="gender">
+     <string>female</string>
+    </void>
+    <void property="id">
+     <long>3</long>
+    </void>
+    <void property="lastname">
+     <string>Polsen</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="model.Actor">
+    <void property="firstname">
+     <string>Jessica</string>
+    </void>
+    <void property="gender">
+     <string>female</string>
+    </void>
+    <void property="id">
+     <long>4</long>
+    </void>
+    <void property="lastname">
+     <string>Pearson</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
