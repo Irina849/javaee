@@ -25,7 +25,7 @@ public class AddActorServlet extends HttpServlet {
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		request.setCharacterEncoding("UTF-8");
+		//request.setCharacterEncoding("UTF-8");
 		// TODO Auto-generated method stub
 		RequestDispatcher dispatcher = request.getServletContext().getRequestDispatcher("/add.jsp");
 		dispatcher.forward(request, response);
@@ -34,7 +34,7 @@ public class AddActorServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		request.setCharacterEncoding("UTF-8");
+		//request.setCharacterEncoding("UTF-8");
 		ActorModel am = ActorModel.getInstance();
 		long max_zn = 0;
 		for (int i = 0; i < am.getAct().size(); i++) {

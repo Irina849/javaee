@@ -49,5 +49,21 @@
     </void>
    </object>
   </void>
+  <void method="add">
+   <object class="model.Actor">
+    <void property="firstname">
+     <string>ddd</string>
+    </void>
+    <void property="gender">
+     <string>female</string>
+    </void>
+    <void property="id">
+     <long>5</long>
+    </void>
+    <void property="lastname">
+     <string>ddd</string>
+    </void>
+   </object>
+  </void>
  </object>
 </java>

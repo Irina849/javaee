@@ -53,8 +53,8 @@
 								</tr>
 							</table>
 						</form>
-
-						<a class="btn btn-outline-dark btn-block" href="index.jsp">Cancel</a>
+					
+						<a class="btn btn-outline-dark btn-block" href="dann">Cancel</a>
 
 					</div>
 				</div>

@@ -57,7 +57,7 @@
 								<td colspan="2"><input
 									class="btn btn-outline-dark btn-block" type="submit"
 									value="Submit" /> <a class="btn btn-outline-dark btn-block"
-									href="index.jsp">Cancel</a></td>
+									href="dann">Cancel</a></td>
 							</tr>
 						</table>
 					</form>

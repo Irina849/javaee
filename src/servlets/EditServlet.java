@@ -33,7 +33,7 @@ public class EditServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		request.setCharacterEncoding("UTF-8");
+		//request.setCharacterEncoding("UTF-8");
 		Long id1 = null;
 		try {
 			id1 = Long.parseLong(request.getParameter("id"));
@@ -59,7 +59,7 @@ public class EditServlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		request.setCharacterEncoding("UTF-8");
+		//request.setCharacterEncoding("UTF-8");
 		String id_s = (String) request.getParameter("id");
 		String lastname = (String) request.getParameter("lastname");
 		String name = (String) request.getParameter("name");
